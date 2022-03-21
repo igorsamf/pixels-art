@@ -1,4 +1,9 @@
 
+#title {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 20%;
+}
 
 #color-palette {
 
@@ -10,6 +15,7 @@
     width: 80px;
     border: solid 1px black;
     margin-inline: 20px;
+    margin-left: 80px;
   }
   
   #color-black {
@@ -26,4 +32,20 @@
 
   #color-green {
       background-color:green;
+  }
+
+  .pixel {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: solid black;
+    font-size: 0;
+    margin: -1.5px;
+  }
+
+  #pixel-board {
+
+    margin-block-end:5%;
+    display: flex;
+    font-size: 0;
   }

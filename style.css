@@ -2,20 +2,20 @@
 #title {
   font-size: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 #color-palette {
-
+  margin-left: 250px;
   }
 
   .color {
     display: inline-block;
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     border: solid 1px black;
-    margin-inline: 20px;
-    margin-left: 80px;
+    margin-inline: 1px;
+    margin-left: 10px;
   }
   
   #color-black {
@@ -36,16 +36,20 @@
 
   .pixel {
     display: inline-block;
-    height: 80px;
-    width: 80px;
-    border: solid black;
+    height: 40px;
+    width: 40px;
+    border: solid 1px black;
     font-size: 0;
     margin: -1.5px;
   }
 
   #pixel-board {
 
-    margin-block-end:5%;
-    display: flex;
+    display:flex;
     font-size: 0;
+    border: solid 1px black;
+    height: 40px;
+    width: 40px;
+    margin-left: 250px;
+    margin-top: 80px;
   }

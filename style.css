@@ -17,6 +17,10 @@
     margin-left: 10px;
   }
   
+  .selected {
+
+  }
+
   #color-black {
       background-color: black;
   }

@@ -1,0 +1,29 @@
+
+
+#color-palette {
+
+  }
+
+  .color {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: solid 1px black;
+    margin-inline: 20px;
+  }
+  
+  #color-black {
+      background-color: black;
+  }
+  
+  #color-red {
+      background-color: red;
+  }
+
+  #color-blue {
+    background-color: blue;
+  }
+
+  #color-green {
+      background-color:green;
+  }

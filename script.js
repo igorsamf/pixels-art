@@ -13,3 +13,18 @@ function selecter(event) {
 }
 
 clickColor();
+
+function pixelColor() {
+    let change = document.getElementsByClassName('pixel');
+    for (i = 0; i < change.length; i += 1) {
+        change[i].addEventListener('click', function (event) {
+
+            let seletor = document.querySelector('.selected');
+            let getCss = window.getComputedStyle(seletor, null);
+            let changed = getCss.getPropertyValue('background-Color');
+            console.log(seletor);
+            event.target.style.backgroundColor = changed;
+        });
+    }
+}
+pixelColor();
